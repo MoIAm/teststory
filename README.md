@@ -2,6 +2,9 @@
 Mo 
 https://storybook.js.org/docs/react/get-started/install
 
+TODO: update storybook -> preview.js
+
+
 Test Storybook 
 npx storybook init  ... {Done}
 
