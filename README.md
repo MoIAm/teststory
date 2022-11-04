@@ -23,6 +23,9 @@ yarn add -D husky
 npx husky install 
 npx husky add .husky/pre-commit "yarn lint" 
 
+error tty on git-push 
+    - fixed -  use npm run build instead of yarn
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
