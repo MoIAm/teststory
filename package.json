@@ -13,6 +13,7 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
+    "prepare": "husky install",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -38,6 +39,7 @@
     "@storybook/react": "^6.5.13",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
+    "husky": "^8.0.1",
     "prettier": "^2.7.1"
   }
 }

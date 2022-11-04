@@ -18,6 +18,11 @@ prettierconfigs .. {Done}
  - ignore and rc
 
 
+Add Husky
+yarn add -D husky
+npx husky install 
+npx husky add .husky/pre-commit "yarn lint" 
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
