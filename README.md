@@ -5,13 +5,20 @@ https://storybook.js.org/docs/react/get-started/install
 Test Storybook 
 npx storybook init  ... {Done}
 
-npm run storybook
+moved to yarn for dev.. {Done}
 
+yarn storybook
+
+lintconfigs .. {Done}
+ - rc
+
+yarn add -D prettier
+
+prettierconfigs .. {Done}
+ - ignore and rc
 
 
 ---
-
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
